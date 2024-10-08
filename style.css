@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+section {
+    margin: 50px auto;
+    max-width: 900px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+    color: #4CAF50;
+    text-align: center;
+}
+section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
+}
+.info, .photo, .hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.info div, .hobbies div {
+    width: 45%;
+    margin-bottom: 20px;
+}
+.photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.contacts {
+    text-align: center;
+    margin-top: 30px;
+}
+.contacts a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contacts a:hover {
+    text-decoration: underline;
+}
