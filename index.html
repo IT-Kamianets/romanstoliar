@@ -5,60 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Офіційна сторінка Романа">
     <title>Роман - Студент Комп'ютерних Наук</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 50px 0;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        section {
-            margin: 50px auto;
-            max-width: 900px;
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        section h2 {
-            color: #4CAF50;
-            text-align: center;
-        }
-        section p {
-            font-size: 1.2em;
-            line-height: 1.6;
-            text-align: justify;
-        }
-        .info {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 20px 0;
-        }
-        .info div {
-            width: 45%;
-            margin-bottom: 20px;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #4CAF50;
-            color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -69,6 +16,9 @@
 
 <section>
     <h2>Про мене</h2>
+    <div class="photo">
+        <img src="your-photo-url-here.jpg" alt="Фото Романа">
+    </div>
     <p>Мене звати Роман, мені 21 рік. Я народився у чудовому місті Кам'янець-Подільський. Мої шкільні роки пройшли у ЗОШ № 11, де я отримав базову освіту. Після цього я вступив до харчового коледжу НУХТ на спеціальність "Комп'ютерні науки" (122). Закінчивши коледж, я вирішив продовжити своє навчання у Кам'янець-Подільському національному університеті ім. Івана Огієнка, де зараз я навчаюся на третьому курсі.</p>
     
     <div class="info">
@@ -91,9 +41,40 @@
     </div>
 </section>
 
+<section>
+    <h2>Мої хобі</h2>
+    <div class="hobbies">
+        <div>
+            <h3>Програмування</h3>
+            <p>Мені подобається розв'язувати складні завдання та писати код на різних мовах, таких як C#, Python та інші.</p>
+        </div>
+        <div>
+            <h3>Спорт</h3>
+            <p>Я люблю активний відпочинок та займаюсь спортом, зокрема бігом та плаванням.</p>
+        </div>
+        <div>
+            <h3>Музика</h3>
+            <p>Музика — невід'ємна частина мого життя. Я граю на гітарі у вільний час.</p>
+        </div>
+        <div>
+            <h3>Мандри</h3>
+            <p>Люблю подорожувати та відкривати нові місця, особливо природу та історичні міста.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contacts">
+    <h2>Контактна інформація</h2>
+    <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    <p>Телефон: <a href="tel:+380123456789">+38 (012) 345 67 89</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank">Мій профіль</a></p>
+</section>
+
 <footer>
     <p>© 2024 Роман - Студент Комп'ютерних Наук</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
